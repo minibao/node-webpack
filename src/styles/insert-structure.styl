@@ -1,0 +1,132 @@
+.structure-label 
+  width: 100%
+  height: 45px
+  line-height: 45px
+  font-size: 12px
+  background: #F3F7FF
+    
+  .structure-label-left 
+    float: left
+    font-size: 14px
+    margin-left: 30px
+    
+    .structure-label-left-icon
+      display: inline-block
+      width: 22px
+      height:21px
+      text-align: center
+      border-radius: 2px
+      line-height: 21px
+      color: #FFF
+      cursor: pointer
+      background-color: #BACBEC
+      margin-right: 5px
+      
+  .structure-label-center
+    float: left
+    height: 26px
+    margin-left: 33%
+    margin-top: 10px
+    border 1px solid #BACBEC
+    line-height: 26px
+    cursor: pointer
+    .structure-label-center-answer
+      display: inline-block
+      padding: 0 10px
+    .structure-label-center-structure
+      display: inline-block
+      border: none
+      padding: 0 10px
+      background-color: #BACBEC
+      color: #FFF
+      
+  .structure-label-right 
+    float: right
+    margin-top: 10px
+    position: absolute
+    right: 10px   
+    .structure-label-list 
+      list-style: none 
+      height: 30px
+               
+  .structure-label-list 
+    .structure-label-list-item 
+      float: left
+      height: 26px
+      line-height: 26px
+      border-radius: 3px
+      margin-left: 10px
+      padding: 0 15px
+      cursor: pointer
+      background-color: #DFE2E7
+      &:nth-child(1) 
+        background-color: #78A7FF
+        color: #FFF
+.structure-wrap 
+  text-align: center
+  font-size: 12px
+  height: calc(100% - 47px - 45px)
+  overflow-x: hidden
+  overflow-y: auto
+     
+  thead
+    .structure-checkall 
+      border-left: none
+      text-align: center
+  
+    .structure-name
+      width: 70%
+  
+    .structure-revise
+      width: 200px 
+          
+  tbody
+    .structure-check 
+      width: 150px
+      height: 32px
+      border-left: none
+      text-align: center
+    
+.add-structure-dialog
+  position: relative
+  width: 96px
+  height: 57px
+  border: 1px solid #C1C1C1
+  background: #fff
+  border-radius: 3px
+
+.add-structure-select
+  width: 100%
+  height 28px
+  text-align: center
+  line-height: 28px
+  border-bottom: 1px dashed #C1C1C1
+  cursor: pointer
+  
+.triangle-mix
+  position: absolute
+  top: 0
+  left: 50%
+  margin-left: -8px
+  height: 16px
+  
+  .triangle-mix-outer-triangle
+    width: 0
+    height: 0
+    border: 8px solid transparent
+    border-bottom-color: #ccc
+  
+  .triangle-mix-inner-triangle
+    position: absolute
+    bottom: -2px
+    z-index: 1
+    width: 0
+    height: 0
+    border: 8px solid transparent
+    border-bottom-color: #fff
+  
+.add-structure-dialog-main
+  position: absolute
+  padding-top: 16px
+  float: left
+  display: none

@@ -1,0 +1,54 @@
+<div class="knowledge">
+   <div class="knowledge-header">
+     <div class="knowledge-header-left">
+       <div class="knowledge-list"><a href="#/knowledge-management/knowledge">导入知识点</a></div>
+       <div class="knowledge-list">导出知识点</div>
+       <div class="knowledge-list knowledge-optimization">优化中心</div>
+     </div>
+     <div class="knowledge-header-right">
+       <div class="search">
+         <input type="text">
+         <input type="button" class="search-text" value="搜索">
+       </div>
+       <div class="advanced-search"> 高级搜索</div>
+     </div>  
+   </div>
+   <div class="knowledge-content">
+     <ol class="knowledge-content-list">
+       <li class="knowledge-content-list-item">必选条件*</li>
+        <li class="knowledge-content-list-item">目录层级必须编写完整，用"/"隔开，第一级为专业知识库或聊天知识库，不符合规则无法导入，最高支持6级目录</li>
+       <li class="knowledge-content-list-item">句式会进行格式校验，不符合规则无法导入</li>
+       <li class="knowledge-content-list-item">标准问重复导入到同标准问下</li>
+       <li class="knowledge-content-list-item">同标准句式重复，去重导入</li>
+       <li class="knowledge-content-list-item">总条数不得超过50000行</li>
+     </ol>
+     <div class="knowledge-content-tpl">
+       <div class="knowledge-content-tpl-text">下载模版</div>
+       <table class="alone-table">
+         <tr class="first-line">
+           <th style="color: #FF6565">目录*</th>
+           <th style="color: #FF6565">知识名称*</th>
+           <th style="color: #FF6565">标准问*</th>
+           <th>句式</th>
+           <th>标准答案</th>
+         </tr>
+         <tr class="second-line">
+           <td>专业知识库/咨询类/个人养老</td>
+           <td>个人养老保障</td>
+           <td>个人养老保障怎么办理</td>
+           <td>想要办个人养老保障如何操作</td>
+           <td>如果是新用户</td>
+         </tr>
+       </table>
+     </div>
+     <div class="choose-knowledge-main">
+       <input type="button" class="choose-knowledge" value="选择知识库文件">
+       <input type="text" class="insert-knowledge-file-name" id="insertFileName">
+       <input class="insert-knowledge-file" type="file" name="insert-knowledge-file" onchange="insertFileName.value = this.value"/>
+     </div>
+      
+   </div>
+  </div>
+</div>
+
+

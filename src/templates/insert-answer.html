@@ -1,0 +1,98 @@
+<div class="insert-knowledge">
+  <div class="knowledge-header">
+    <div class="knowledge-header-left">
+      <div class="knowledge-list"><a href="#/knowledge-management/knowledge">导入知识点</a></div>
+      <div class="knowledge-list knowledge-export">导出知识点</div>
+      <div class="knowledge-list knowledge-optimization">优化中心</div>
+    </div>
+    <div class="knowledge-header-right">
+      <div class="search">
+        <input type="text">
+        <input type="button" class="search-text" value="搜索">
+      </div>
+      <div class="advanced-search"> 高级搜索</div>
+    </div>  
+  </div>
+  <div class="structure-label">
+      <div class="structure-label-left">
+        <span class="structure-label-left-icon"><</span>
+        <span class="structure-label-left-text">个人养老保险查询</span>
+      </div>
+      <div class="structure-label-center">
+        <div class="structure-label-center-answers"><a href="#/knowledge-management/insert-answer">答案</a></div>
+        <div class="structure-label-center-structures"><a href="#/knowledge-management/insert-structure">句式</a></div>
+      </div>
+      <div class="structure-label-right">
+        <ul class="structure-label-list">
+          <li class="structure-label-list-item" id="insert-answer">添加答案</li>
+          <li class="structure-label-list-item del-knowledge">删除</li>
+          <li class="structure-label-list-item use-knowledge">启用</li>
+          <li class="structure-label-list-item disable-knowledge">禁用</li>
+        </ul>
+      </div>
+  </div>
+  <div class="answer-wrap">
+    <form action="" class="answer-form">
+      <span class="answer-title">选择类型:</span>
+      <input type="checkbox" class="answer-text">文本
+      <input type="checkbox" class="answer-text">URL
+      <input type="checkbox" class="answer-text">图片
+      <input type="checkbox" class="answer-text">音频
+      <input type="checkbox" class="answer-text">视频
+    </form>
+    <table class="common-table alone-table">
+      <thead>
+        <tr>
+          <th class="answer-checkall">
+            <input type="checkbox" class="knowledge-check-all">
+          </th>
+          <th class="answer-type">类型</th>
+          <th class="answer-name">答案</th>
+          <th class="answer-date">有效期</th>
+          <th class="answer-revise">修改</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="knowledge-check">
+            <input type="checkbox">
+          </td>
+          <td>文本/URL/图片/音频/视频</td>
+          <td>你好/http....../png/voice/mp4</td>
+          <td>
+            <span class="icon icon-date answer-validity-start" gldp-id="mydatestart"></span>
+            <div gldp-el="mydatestart"
+              style="width:200px; height:200px; position:absolute; display: none" class="mydatestart-main">
+            </div>
+            <span class="line"></span>
+            <span class="icon icon-date answer-validity-end" gldp-id="mydateend"></span>
+            <div gldp-el="mydateend"
+              style="width:200px; height:200px; position:absolute; display: none" class="mydateend-main">
+            </div>
+          </td>
+          <td><span class="icon icon-revise"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="modify-content">
+    <form action="" class="modify-content-main">
+      <label for="" class="modify-content-input-title">类型:</label>
+      <input type="checkbox" class="answer-text-modify">文本
+      <input type="checkbox" class="answer-text-modify">URL
+      <input type="checkbox" class="answer-text-modify">图片
+      <input type="checkbox" class="answer-text-modify">音频
+      <input type="checkbox" class="answer-text-modify">视频
+      <br>
+      <div class="modify-content-textarea-main">
+        <label for="" class="modify-content-textarea-title">答案:</label>
+        <textarea class="modify-content-textarea"></textarea>
+      </div>
+      <br>
+      <div class="modify-content-button">
+        <input type="button" value="保存" class="modify-content-ok">
+        <input type="button" value="取消" class="modify-content-cancel">
+      </div>
+    </form>
+  </div>
+</div>

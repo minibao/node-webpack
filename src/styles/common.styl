@@ -1,0 +1,173 @@
+/*!
+ * common styles
+ * bqliu | 09/22/2017
+ */
+
+.bold
+  font-weight: 700
+  
+.list-table
+  thead
+    .list-checkall
+      width: 82px
+      border-left: none
+      text-align: center
+    .list-type 
+      width: 156px       
+    .list-problem 
+      width: 252px
+    .list-time 
+      width: 203px        
+    .list-state 
+      width: 195px        
+    .list-operate 
+      width: 260px
+        
+  tbody
+    .list-check
+      width: 82px
+      height: 32px
+      border-left: none
+      text-align: center
+    .edit 
+      display: inline-block
+      width: 34px
+      height: 19px
+      margin: 0 26px 0 54px
+      border: 1px solid #93B9FF
+      color: #93B9FF
+      cursor: pointer        
+    .delete 
+      display: inline-block
+      width: 34px
+      height: 19px
+      margin-right: 54px
+      border: 1px solid #FFA1A2
+      color: #FFA1A2
+      cursor: pointer
+.paging 
+    text-align: left
+    height: 36px
+    color: #929292
+    line-height: 36px
+
+  .detail-text 
+    float: left       
+    display: inline-block
+    margin-left: 10px   
+
+  .detail-icon 
+    float: right
+    margin-right: 10px
+    display: inline-block
+    .icon 
+      float: left
+    .detail-page
+      float: left
+      padding: 1px 10px
+      display: inline-block
+      .page-text
+        display: inline-block
+        vertical-align: center
+      .detail-page1 
+        position: relative
+        display: inline-block
+        vertical-align: center
+        width: 40px
+        height: 16px
+        line-height: 16px
+        margin: 0 5px
+        padding-left: 5px
+        border: 1px solid #ccc         
+    .allpage-text
+      float: left
+      display: inline-block
+      margin-right: 10px
+    
+.knowledge-header 
+  height: 47px
+  width: 100%
+  padding-left: 20px
+  font-size: 14px
+  border-bottom: 1px solid #D8E0EA
+  line-height: 47px
+    
+  .knowledge-header-left 
+    float: left
+    margin-left: 10px
+        
+.knowledge-header-left 
+  .knowledge-list 
+    display: inline-block
+    width: 80px
+    height: 25px
+    text-align: center
+    line-height: 25px
+    margin-right: 10px
+    font-size: 12px
+    border-radius: 4px
+    cursor: pointer
+    color: #FFF
+    background-color: #78A7FF
+.knowledge-header-right 
+  float: right
+  margin-right: 10px
+  margin-top: 10px
+  input 
+    border: none
+  .search 
+    float: left
+    input 
+      display: inline-block
+      float: left
+      width: 176px
+      height: 23px
+      border: 1px solid #D7DCE5
+      border-right: 0
+      padding-left: 4px
+  
+    .search-text 
+      display: inline-block
+      float: left
+      width: 52px
+      height: 23px
+      background: #E1E4EA
+      font: 400 12px/19px "microsoft yahei"
+      cursor: pointer
+      color: #6E6E6F
+          
+  .advanced-search 
+    float: left
+    width: 68px
+    height: 23px
+    font-size: 12px
+    text-align: center
+    margin-left: 11px
+    cursor: pointer;
+    border: 1px solid #78A7FF
+    color: #78A7FF
+    line-height: 23px 
+    
+.common-table
+  tr
+    height: 32px
+  tr:nth-child(even)
+     background-color: #F9FBFF
+
+  th 
+    border-bottom: 1px dashed #DFE7F1
+    border-left: 1px solid #E4EAF3
+  
+  td
+    border-bottom: 1px dashed #DFE7F1
+    border-left: 1px solid #E4EAF3
+.clearfix
+  display: inline-block
+  &:after
+    display: block
+    content: "."
+    height: 0
+    line-height: 0
+    clear: both
+    visibility: hidden
+  

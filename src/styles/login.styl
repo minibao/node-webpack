@@ -1,0 +1,139 @@
+@import "./reset.styl"
+@import "./mixins.styl"
+@import "./icon.styl"
+@import "./common.styl"
+@import "./input.styl"
+
+av-color = #4271C3
+
+#app
+  height: 100%
+  overflow: auto
+  background-color: av-color
+  background: radial-gradient(circle at center, #4473C4, #2C54B5);
+  
+  .app-header
+    height: 82px
+    line-height: 82px
+    padding-left: 88px
+    color: #fff
+    overflow: hidden
+
+.app-header 
+  .icon-logo
+    display: inline-block
+    vertical-align: middle
+        
+  .title
+    display: inline-block
+    vertical-align: middle
+    margin-left: 2px
+    line-height: 1
+    
+    .cn
+      margin: 0
+      font-size: 20px
+      letter-spacing: 2px
+      margin-bottom: 2px
+    .en 
+      font-size: 12px  
+        
+.app-content
+  position relative
+  height: calc(100% - 82px - 64px)
+  overflow: hidden
+  
+  .icon-ball
+    float: left
+    width: 60%
+    height: 100%
+    background-size: contain
+    
+  .login-form
+    float: right
+    position: absolute
+    right: 11%
+    top: 50%
+    margin-top: -200px
+    background: url("~images/icon/login-pic.png") no-repeat
+    width: 400px
+    height: 400px
+    padding: 41px 37px
+    text-align: center
+    
+    .title
+      color: #fff
+      text-align: center
+      margin: 30px 0 10px 0
+      font-size: 18px
+
+.login-form
+  font-size: 12px
+  .name-wrap
+    position: relative
+    
+    .icon-user
+      position: absolute
+      left: 35px
+      top: 9px
+      
+  .pwd-wrap
+    position: relative
+    
+    .icon-pwd
+      position: absolute
+      left: 35px
+      top: 9px
+      
+  .submit-btn
+    width: 280px
+    height: 40px
+    border: none
+    border-radius: 6px
+    line-height: 33px
+    font-size: 14px
+    padding: 0 auto
+    color: #CBDCF4
+    margin-top: 20px
+    background-color: #2A5AB1
+          
+.app-footer
+  width: 100%
+  height: 64px
+  line-height: 64px
+  text-align: center
+  font-size: 12px
+  color: #3762B2
+  background-color: #224891
+  z-index: 10
+  
+.input
+  width: 280px
+  
+.login-tip-main
+  position: relative
+  width: 280px
+  height: 20px
+  margin: 0 0 10px 23px
+  visibility: hidden
+  
+.login-tip
+  display: inline-block
+  width: 280px
+  height: 20px
+  background: #fff  
+  text-align: left
+  color: #f00
+  background: #d8e0ea
+  padding-left: 30px
+  border-radius: 3px
+  
+.login-warn-tip
+  display: inline-block
+  width: 20px
+  height: 15px
+  background: url("~images/icon/login-warning.png") no-repeat
+  margin-top: 2px
+  position: absolute
+  left: 4px
+  top: 0

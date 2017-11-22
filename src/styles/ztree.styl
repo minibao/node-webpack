@@ -1,0 +1,159 @@
+.ztree
+  width: 100%
+  height: 100%
+  overflow: auto
+
+.ztree *
+  font-family: 'Microsoft YaHei', san-serif, serif
+
+.ztree li
+  position: relative
+  line-height: 45px
+
+.ztree li a
+  height: 45px
+  color: #fff
+  
+  &:hover
+    text-decoration: none
+
+.ztree li a.curSelectedNode
+  height: 100%
+  background-color: inherit
+  color: #fff
+  opacity: 1
+
+.ztree .node_name
+  font-size: 12px
+
+.ztree .level0 .node_name
+  font-size: 14px
+
+.ztree #knowledge_ztree_1 .node_name
+  font-size: 16px
+
+.ztree-menu-wrap
+  width: 240px
+  height: 100%
+  background-color: #4778c7
+  color: #fff
+
+.ztree .diy-opr-area
+  position: absolute
+  top: -8px
+  right: 0
+  width: 0
+  height: 0
+  border: 5px solid transparent
+  border-top-color: #fff
+  
+.ztree li span.button.noline_open
+.ztree li span.button.noline_close
+  width: 16px
+  height: 16px
+  background: url("~images/icon/folder.png") no-repeat
+  
+.ztree li span.button.noline_docu
+  width: 16px
+  height: 16px
+  background: url("~images/icon/file.png") no-repeat
+
+#knowledge_ztree ul
+  width: 100%
+
+.ztree li ul
+  margin: 0
+  padding: 0
+  border: none
+  list-style: none  
+
+#knowledge_ztree span#knowledge_ztree_1_switch
+  margin-left 30px
+
+ul.level0
+  background: #3D6EBD
+
+  li.level1  span.level1
+    margin-left: 40px
+  
+ul.level1
+  background: #3969B9
+  
+  li.level2  span.level2
+    margin-left: 50px
+  
+ul.level2
+  background: #3364B6
+  
+  li.level3  span.level3
+    margin-left: 60px
+  
+ul.level3
+  background: #3060B0
+  
+  li.level4  span.level4
+    margin-left: 70px
+      
+ul.level4
+  background: #2B5AA8
+  
+  li.level5  span.level5
+    margin-left: 80px
+      
+ul.level5
+  background: #2856A3
+  
+  li.level6  span.level6
+    margin-left: 90px
+      
+ul.level5
+  background: #21509E
+  
+  li.level6  span.level6
+    margin-left: 100px
+    
+.ztree #knowledge_ztree_1 .node_name
+  font-size: 14px
+
+#knowledge_ztree_1_a #knowledge_ztree_1_span
+  font-size: 16px
+  
+#diy_opr_area0
+  border: none
+  
+.fold-icon
+  padding: 10px
+  position: absolute
+  width: 19px
+  height: 17px
+  background: url("~images/icon/fold-icon.png") no-repeat center
+  top: 13px
+  right: 10px
+  cursor: pointer
+  
+.ztree li a.curSelectedNode_Edit
+  border: none
+
+#knowledge_ztree_1
+  a
+    display: block
+    height: 45px
+    padding: 0
+
+#knowledge_ztree
+  li
+    span:nth-child(1)
+      float: left
+      margin-top: 16px
+      
+.ztree
+  padding: 0
+
+.diy-opr-area-clickarea
+  display: inline-block
+  width: 20px
+  height: 20px
+  position: absolute
+  top: 13px
+  right: 11px
+  cursor: pointer
